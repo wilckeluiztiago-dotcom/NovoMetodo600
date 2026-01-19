@@ -29,7 +29,6 @@ Requisitos:
 
 Autor: Luiz Tiago Wilcke, Estudante de Estatística Unisociesc
 Data: 2026-01-19
-Versão: 2.0.0 (Upgrade SOTA - Extreme Edition)
 """
 
 import torch
