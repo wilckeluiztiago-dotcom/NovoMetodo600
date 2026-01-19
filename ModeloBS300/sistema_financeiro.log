@@ -1,0 +1,101 @@
+2026-01-19 19:36:25,924 - ConfiguracaoSistema - INFO - Configurações iniciais carregadas com sucesso.
+2026-01-19 19:36:28,777 - RedeNeuralLSTM - INFO - Dispositivo de processamento IA: cpu
+2026-01-19 19:36:47,130 - ConfiguracaoSistema - INFO - Configurações iniciais carregadas com sucesso.
+2026-01-19 19:36:49,360 - RedeNeuralLSTM - INFO - Dispositivo de processamento IA: cpu
+2026-01-19 19:36:49,489 - MainOrquestrador - INFO - ==========================================================
+2026-01-19 19:36:49,489 - MainOrquestrador - INFO -    INICIANDO SUPER MODELO FINANCEIRO (WILCKE SYSTEM)      
+2026-01-19 19:36:49,489 - MainOrquestrador - INFO - ==========================================================
+2026-01-19 19:36:49,489 - MainOrquestrador - INFO - Sistema: Super Modelo Black-Scholes Avançado | Autor: Luiz Tiago Wilcke, Estudante de Estatística Unisociesc
+2026-01-19 19:36:49,489 - MainOrquestrador - INFO - 
+[FASE 1] Gerando Cenários Macroeconômicos 2026-2028...
+2026-01-19 19:36:49,507 - GeradorCenarios - INFO - Cenários gerados para 3 ativos até 2028.
+2026-01-19 19:36:49,507 - MainOrquestrador - INFO - Cenários gerados! Tamanho da base: (782, 3). Término em: 2028-12-29 00:00:00
+2026-01-19 19:36:49,507 - MainOrquestrador - INFO - 
+[FASE 2] Treinando Rede Neural Híbrida (LSTM)...
+2026-01-19 19:36:51,217 - MainOrquestrador - INFO - 
+[FASE 3] Executando Auto-ARIMA Benchmark...
+2026-01-19 19:36:51,234 - SeriesTemporaisClassicas - INFO - Teste ADF p-valor: 0.4941. Teste KPSS p-valor: 0.0100
+2026-01-19 19:36:51,234 - SeriesTemporaisClassicas - INFO - Série é Não-Estacionária. Diferenciação necessária.
+2026-01-19 19:36:51,235 - SeriesTemporaisClassicas - INFO - Iniciando Auto-ARIMA para PETR4. Sazonal=False, m=1
+2026-01-19 19:36:51,457 - SeriesTemporaisClassicas - INFO - Melhor modelo encontrado: (0, 1, 0) (0, 0, 0, 0)
+2026-01-19 19:36:51,470 - MainOrquestrador - INFO - 
+[FASE 4] Precificação de Derivativos com Equações de Wilcke...
+2026-01-19 19:36:51,687 - NovasEquacoesWilcke - INFO - Preço Wilcke (call): 5.6024 +/- 0.0958
+2026-01-19 19:36:51,692 - MainOrquestrador - INFO - Preço Opção Call 1y (Wilcke Model): R$ 5.60237547
+2026-01-19 19:40:55,222 - ConfiguracaoSistema - INFO - Configurações iniciais carregadas com sucesso.
+2026-01-19 19:41:25,843 - ConfiguracaoSistema - INFO - Configurações iniciais carregadas com sucesso.
+2026-01-19 19:41:28,686 - DeepLearningFinanceiro - WARNING - Hardware AI não detectado: Usando CPU (Lento para deep learning profundo).
+2026-01-19 19:41:28,882 - MainOrquestrador - INFO - ==========================================================
+2026-01-19 19:41:28,882 - MainOrquestrador - INFO -    INICIANDO SUPER MODELO FINANCEIRO (WILCKE SYSTEM)      
+2026-01-19 19:41:28,882 - MainOrquestrador - INFO - ==========================================================
+2026-01-19 19:41:28,882 - MainOrquestrador - INFO - Sistema: Super Modelo Black-Scholes Avançado | Autor: Luiz Tiago Wilcke, Estudante de Estatística Unisociesc
+2026-01-19 19:41:28,882 - MainOrquestrador - INFO - 
+[FASE 1] Gerando Cenários Macroeconômicos 2026-2028...
+2026-01-19 19:41:28,908 - GeradorCenarios - INFO - Cenários gerados para 3 ativos até 2028.
+2026-01-19 19:41:28,908 - MainOrquestrador - INFO - Cenários gerados! Tamanho da base: (782, 3). Término em: 2028-12-29 00:00:00
+2026-01-19 19:41:28,908 - MainOrquestrador - INFO - 
+[FASE 2] Treinando Rede Neural SOTA (LSTM+Attention)...
+2026-01-19 19:41:47,448 - ConfiguracaoSistema - INFO - Configurações iniciais carregadas com sucesso.
+2026-01-19 19:41:49,646 - DeepLearningFinanceiro - WARNING - Hardware AI não detectado: Usando CPU (Lento para deep learning profundo).
+2026-01-19 19:41:49,855 - MainOrquestrador - INFO - ==========================================================
+2026-01-19 19:41:49,855 - MainOrquestrador - INFO -    INICIANDO SUPER MODELO FINANCEIRO (WILCKE SYSTEM)      
+2026-01-19 19:41:49,855 - MainOrquestrador - INFO - ==========================================================
+2026-01-19 19:41:49,855 - MainOrquestrador - INFO - Sistema: Super Modelo Black-Scholes Avançado | Autor: Luiz Tiago Wilcke, Estudante de Estatística Unisociesc
+2026-01-19 19:41:49,855 - MainOrquestrador - INFO - 
+[FASE 1] Gerando Cenários Macroeconômicos 2026-2028...
+2026-01-19 19:41:49,873 - GeradorCenarios - INFO - Cenários gerados para 3 ativos até 2028.
+2026-01-19 19:41:49,873 - MainOrquestrador - INFO - Cenários gerados! Tamanho da base: (782, 3). Término em: 2028-12-29 00:00:00
+2026-01-19 19:41:49,873 - MainOrquestrador - INFO - 
+[FASE 2] Treinando Rede Neural SOTA (LSTM+Attention)...
+2026-01-19 19:41:50,474 - DeepLearningFinanceiro - INFO - Iniciando treinamento da arquitetura LSTM...
+2026-01-19 19:41:50,830 - DeepLearningFinanceiro - INFO - Epoch 001/10 | Train Loss: 0.019074 | Val Loss: 0.201301 | LR: 1.00e-03
+2026-01-19 19:41:51,082 - DeepLearningFinanceiro - INFO - Epoch 002/10 | Train Loss: 0.008262 | Val Loss: 0.177175 | LR: 1.00e-03
+2026-01-19 19:41:51,332 - DeepLearningFinanceiro - INFO - Epoch 003/10 | Train Loss: 0.005269 | Val Loss: 0.153663 | LR: 1.00e-03
+2026-01-19 19:41:51,579 - DeepLearningFinanceiro - INFO - Epoch 004/10 | Train Loss: 0.004769 | Val Loss: 0.125359 | LR: 1.00e-03
+2026-01-19 19:41:51,827 - DeepLearningFinanceiro - INFO - Epoch 005/10 | Train Loss: 0.005031 | Val Loss: 0.052409 | LR: 1.00e-03
+2026-01-19 19:41:52,077 - DeepLearningFinanceiro - INFO - Epoch 006/10 | Train Loss: 0.004003 | Val Loss: 0.005799 | LR: 1.00e-03
+2026-01-19 19:41:52,325 - DeepLearningFinanceiro - INFO - Epoch 007/10 | Train Loss: 0.004233 | Val Loss: 0.000416 | LR: 1.00e-03
+2026-01-19 19:41:52,572 - DeepLearningFinanceiro - INFO - Epoch 008/10 | Train Loss: 0.004009 | Val Loss: 0.018313 | LR: 1.00e-03
+2026-01-19 19:41:52,834 - DeepLearningFinanceiro - INFO - Epoch 009/10 | Train Loss: 0.003640 | Val Loss: 0.006454 | LR: 1.00e-03
+2026-01-19 19:41:53,084 - DeepLearningFinanceiro - INFO - Epoch 010/10 | Train Loss: 0.004214 | Val Loss: 0.001465 | LR: 1.00e-03
+2026-01-19 19:42:04,580 - ConfiguracaoSistema - INFO - Configurações iniciais carregadas com sucesso.
+2026-01-19 19:42:06,424 - DeepLearningFinanceiro - WARNING - Hardware AI não detectado: Usando CPU (Lento para deep learning profundo).
+2026-01-19 19:42:06,617 - MainOrquestrador - INFO - ==========================================================
+2026-01-19 19:42:06,617 - MainOrquestrador - INFO -    INICIANDO SUPER MODELO FINANCEIRO (WILCKE SYSTEM)      
+2026-01-19 19:42:06,617 - MainOrquestrador - INFO - ==========================================================
+2026-01-19 19:42:06,617 - MainOrquestrador - INFO - Sistema: Super Modelo Black-Scholes Avançado | Autor: Luiz Tiago Wilcke, Estudante de Estatística Unisociesc
+2026-01-19 19:42:06,618 - MainOrquestrador - INFO - 
+[FASE 1] Gerando Cenários Macroeconômicos 2026-2028...
+2026-01-19 19:42:06,634 - GeradorCenarios - INFO - Cenários gerados para 3 ativos até 2028.
+2026-01-19 19:42:06,634 - MainOrquestrador - INFO - Cenários gerados! Tamanho da base: (782, 3). Término em: 2028-12-29 00:00:00
+2026-01-19 19:42:06,634 - MainOrquestrador - INFO - 
+[FASE 2] Treinando Rede Neural SOTA (LSTM+Attention)...
+2026-01-19 19:42:07,223 - DeepLearningFinanceiro - INFO - Iniciando treinamento da arquitetura LSTM...
+2026-01-19 19:42:07,602 - DeepLearningFinanceiro - INFO - Epoch 001/10 | Train Loss: 0.018165 | Val Loss: 0.036518 | LR: 1.00e-03
+2026-01-19 19:42:07,842 - DeepLearningFinanceiro - INFO - Epoch 002/10 | Train Loss: 0.008990 | Val Loss: 0.030236 | LR: 1.00e-03
+2026-01-19 19:42:08,091 - DeepLearningFinanceiro - INFO - Epoch 003/10 | Train Loss: 0.005975 | Val Loss: 0.026317 | LR: 1.00e-03
+2026-01-19 19:42:08,341 - DeepLearningFinanceiro - INFO - Epoch 004/10 | Train Loss: 0.005158 | Val Loss: 0.014828 | LR: 1.00e-03
+2026-01-19 19:42:08,595 - DeepLearningFinanceiro - INFO - Epoch 005/10 | Train Loss: 0.007423 | Val Loss: 0.004928 | LR: 1.00e-03
+2026-01-19 19:42:08,844 - DeepLearningFinanceiro - INFO - Epoch 006/10 | Train Loss: 0.004763 | Val Loss: 0.006651 | LR: 1.00e-03
+2026-01-19 19:42:09,097 - DeepLearningFinanceiro - INFO - Epoch 007/10 | Train Loss: 0.004778 | Val Loss: 0.003344 | LR: 1.00e-03
+2026-01-19 19:42:09,348 - DeepLearningFinanceiro - INFO - Epoch 008/10 | Train Loss: 0.005076 | Val Loss: 0.001898 | LR: 1.00e-03
+2026-01-19 19:42:09,600 - DeepLearningFinanceiro - INFO - Epoch 009/10 | Train Loss: 0.004611 | Val Loss: 0.004305 | LR: 1.00e-03
+2026-01-19 19:42:09,854 - DeepLearningFinanceiro - INFO - Epoch 010/10 | Train Loss: 0.005905 | Val Loss: 0.004549 | LR: 1.00e-03
+2026-01-19 19:42:09,859 - DeepLearningFinanceiro - INFO - --- Treinamento Concluído ---
+2026-01-19 19:42:09,859 - DeepLearningFinanceiro - INFO - Tempo Total: 2.63s
+2026-01-19 19:42:09,859 - DeepLearningFinanceiro - INFO - Melhor Val Loss: 0.001898 (Epoch 7)
+2026-01-19 19:42:09,859 - DeepLearningFinanceiro - INFO - Métricas Validação: RMSE=2.8722, MAPE=5.54%
+2026-01-19 19:42:09,867 - DeepLearningFinanceiro - INFO - Checkpoint SOTA salvo em: modelos/serializados/PETR4_Predictor_SOTA.pth
+2026-01-19 19:42:09,867 - MainOrquestrador - INFO - Gerando projeção futura via IA...
+2026-01-19 19:42:09,908 - MainOrquestrador - INFO - 
+[FASE 3] Executando Auto-ARIMA Benchmark...
+2026-01-19 19:42:09,909 - SeriesTemporaisClassicas - INFO - Iniciando Auto-ARIMA para PETR4. Sazonal=False, m=1
+2026-01-19 19:42:11,194 - SeriesTemporaisClassicas - INFO - Melhor modelo encontrado: (1, 0, 0) (0, 0, 0, 0)
+2026-01-19 19:42:11,206 - MainOrquestrador - INFO - 
+[FASE 4] Precificação de Derivativos com Equações de Wilcke...
+2026-01-19 19:42:11,386 - NovasEquacoesWilcke - INFO - Preço Wilcke (call): 5.6387 +/- 0.0963
+2026-01-19 19:42:11,388 - MainOrquestrador - INFO - Preço Opção Call 1y (Wilcke Model): R$ 5.63865237
+2026-01-19 19:42:11,388 - MainOrquestrador - INFO - Preço Opção Call 1y (Black-Scholes): R$ 5.71945807
+2026-01-19 19:42:11,388 - MainOrquestrador - INFO - 
+[FASE 5] Gerando Relatórios Visuais...
+2026-01-19 19:42:11,685 - MainOrquestrador - INFO - Processo concluído com sucesso. Resultados salvos em visualizacao/relatorios.
